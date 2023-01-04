@@ -3,11 +3,11 @@
 
 
 ## Methods
-addImageOverlay(imageOverlay): Adds an imageOverlay to the layer.
-addImageOverlays(imageOverlays): Adds multiple imageOverlays to the layer.
-removeImageOverlay(imageOverlays, redraw): Removes a marker from the layer. Set redraw to true if you want to redraw layer after marker remove
-redraw(): Redraws the layer
-addOnClickListener(eventHandler): Adds common click listener for all imageOverlays
-addOnHoverListener(eventHandler): Adds a hover over listener for all imageOverlays
-**setBounds**(): reset the bounds of the imageOverlay that is already added to the layer. I rewrote it to replace the original method for imageOverlay of Leaflet for compatibility.
-Just like Canvas-Markers, addLayer, addLayers and removeLayer (equal to removeImageOverlay(marker, true) methods are also supported.
+* addImageOverlay(imageOverlay): Adds an imageOverlay to the layer.
+* addImageOverlays(imageOverlays): Adds multiple imageOverlays to the layer.
+* removeImageOverlay(imageOverlays, redraw): Removes a marker from the layer. Set redraw to true if you want to redraw layer after marker remove
+* redraw(): Redraws the layer
+* addOnClickListener(eventHandler): Adds common click listener for all imageOverlays
+* addOnHoverListener(eventHandler): Adds a hover over listener for all imageOverlays
+* **setBounds**(): reset the bounds of the imageOverlay that is already added to the layer. I rewrote it to replace the original method for imageOverlay of Leaflet for compatibility.
+* Just like Canvas-Markers, addLayer, addLayers and removeLayer (equal to removeImageOverlay(marker, true) methods are also supported.
